@@ -1,5 +1,7 @@
 # Sampling from Boltzmann distribution
+
 Numerical demonstration of the algorithm below.
+
 ![This is an alt text.](/image/algorithm.png "Monte Carlo sampling.")
 
 For demonstration purposes, we have set $n=2$, $\alpha = 1,000$, and $N=100,000,000$. For each two-dimensional vector $x=(x_1, x_2)$, 
