@@ -6,7 +6,7 @@ def f(x: torch.Tensor) -> torch.Tensor:
     return torch.sin(x) + x**2
 
 
-def monte_carlo_expectation(num_samples: int = 1_000_000, seed: int = 0) -> float:
+def monte_carlo_expectation(num_samples: int = 1_000_000, seed: int = 2) -> float:
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
